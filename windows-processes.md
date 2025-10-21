@@ -42,7 +42,7 @@ What is normal?
 **Parent Process:**  System<br>
 **Number of Instances:**  One master instance and child instance per session. The child instance exits after creating the session.<br>
 **User Account:  Local System**<br>
-**Start Time:**  Within seconds of boot time for the master instance<br>
+**Start Time:**  Within seconds of boot time for the master instance<br><br>
 
 What is unusual?
 
