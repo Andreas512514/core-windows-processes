@@ -33,7 +33,7 @@ The information in **Process Hacker** in a little different.
 
 ## System > smss.exe (Session Manager Subsystem)
 
-This process, also known as the **Windows Session Manager**, is responsible for creating new sessions. It is the first user-mode process started by the kernel.<br<br>
+This process, also known as the **Windows Session Manager**, is responsible for creating new sessions. It is the first user-mode process started by the kernel.<br><br>
 
 What is normal?
 
