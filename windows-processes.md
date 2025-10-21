@@ -38,3 +38,8 @@ This process, also known as the **Windows Session Manager**, is responsible for 
 What is normal?
 
 ![smss.exe](https://github.com/Andreas512514/core-windows-processes/blob/main/Screenshot%202025-10-22%20003356.png)
+
+**Parent Process:**  System<br>
+**Number of Instances:**  One master instance and child instance per session. The child instance exits after creating the session.<br>
+**User Account:  Local System**<br>
+**Start Time:**  Within seconds of boot time for the master instance<br>
