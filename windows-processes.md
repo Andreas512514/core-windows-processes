@@ -28,7 +28,9 @@ The information in **Process Hacker** in a little different.
 **Image Path:** C:\Windows\system32\ntoskrnl.exe (NT OS Kernel)<br>
 **Parent Process:** System Idle Process (0)
 
-**Remember** that the PID will always be PID 4 and should only be one instance.
+**Remember** that the PID will always be PID 4 and should only be one instance.<br><br><br>
 
+
+## System > smss.exe (Session Manager Subsystem)
 
 
