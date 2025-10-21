@@ -19,4 +19,8 @@ The System process (process ID 4) is the home for a special kind of thread that 
 
 **Image Path:**  N/A<br>
 **Parent Process:**  None<br>
-**Start Time:**  At boot time<br>
+**Start Time:**  At boot time<br><br>
+
+The information in Process Hacker in a little different.
+
+![screenshot process system(process hacker)](https://github.com/Andreas512514/core-windows-processes/blob/main/Screenshot%202025-10-21%20232346.png)
