@@ -43,3 +43,10 @@ What is normal?
 **Number of Instances:**  One master instance and child instance per session. The child instance exits after creating the session.<br>
 **User Account:  Local System**<br>
 **Start Time:**  Within seconds of boot time for the master instance<br>
+
+What is unusual?
+
+A different parent process other than System (4)<br>
+The image path is different from C:\Windows\System32<br>
+More than one running process. (children self-terminate and exit after each new session)<br>
+The running User is not the SYSTEM user<br>
