@@ -7,7 +7,9 @@
 You can open the Process Explorer program. You can download from [here](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer).<br><br>
 
 You can also open the Process Hacker program.
-![process hacker](https://github.com/Andreas512514/core-windows-processes/blob/main/Screenshot%202025-10-21%20231426.png)
+
+![process hacker](https://github.com/Andreas512514/core-windows-processes/blob/main/Screenshot%202025-10-21%20231426.png)<br><br><br>
+
 
 ## System
 
