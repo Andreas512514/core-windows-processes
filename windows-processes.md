@@ -13,6 +13,10 @@ You can also open the Process Hacker program.
 
 ## System
 
-The System process (process ID 4) is the home for a special kind of thread that runs only in kernel mode a kernel-mode system thread.
+The System process (process ID 4) is the home for a special kind of thread that runs only in kernel mode a kernel-mode system thread.<br><br>
 
 ![Screenshot process systme](https://github.com/Andreas512514/core-windows-processes/blob/main/Screenshot%202025-10-21%20232429.png)
+
+**Image Path:**  N/A<br>
+**Parent Process:**  None<br>
+**Start Time:**  At boot time<br>
