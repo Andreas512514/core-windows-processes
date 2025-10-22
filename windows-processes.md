@@ -80,7 +80,7 @@ The user is not the SYSTEM user.<br><br><br>
 
 ## wininit.exe
 
-The Windows Initialization Process, wininit.exe, is responsible for launching services.exe (Service Control Manager), lsass.exe (Local Security Authority), and lsaiso.exe within Session 0. It is another critical Windows process that runs in the background, along with its child processes. 
+The **Windows Initialization Process**, **wininit.exe**, is responsible for launching services.exe (Service Control Manager), lsass.exe (Local Security Authority), and lsaiso.exe within Session 0. It is another critical Windows process that runs in the background, along with its child processes. 
 
 ![processes](https://github.com/Andreas512514/core-windows-processes/blob/main/Screenshot%202025-10-23%20001041.png)
 
@@ -101,3 +101,12 @@ Image file path other than C:\Windows\System32<br>
 Subtle misspellings to hide rogue processes in plain sight<br>
 Multiple running instances<br>
 Not running as SYSTEM<br><br><br>
+
+
+## wininit.exe > services.exe
+
+The next process is the **Service Control Manager** (SCM) or **services.exe**. Its primary responsibility is to handle system services: loading services, interacting with services and starting or ending services. It maintains a database that can be queried using a Windows built-in utility, *sc.exe*. 
+
+This process is the parent to several other key processes: svchost.exe, spoolsv.exe, msmpeng.exe, and dllhost.exe, to name a few.
+
+![services.exe screenshot](https://github.com/Andreas512514/core-windows-processes/blob/main/Screenshot%202025-10-23%20003633.png)
