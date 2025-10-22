@@ -49,4 +49,14 @@ What is unusual?
 A different parent process other than System (4)<br>
 The image path is different from C:\Windows\System32<br>
 More than one running process. (children self-terminate and exit after each new session)<br>
-The running User is not the SYSTEM user<br>
+The running User is not the SYSTEM user<br><br><br>
+
+
+## csrss.exe
+
+**csrss.exe** (**Client Server Runtime Process**) is the user-mode side of the Windows subsystem. This process is always running and is critical to system operation. If this process is terminated by chance, it will result in system failure. This process is responsible for the Win32 console window and process thread creation and deletion. For each instance, csrsrv.dll, basesrv.dll, and winsrv.dll are loaded (along with others).
+
+This process is also responsible for making the Windows API available to other processes, mapping drive letters, and handling the Windows shutdown process.
+
+csrss.exe and winlogon.exe are called from smss.exe at startup for Session 1. 
+![csrss.exe proparties screenshoot](https://github.com/Andreas512514/core-windows-processes/blob/main/Screenshot%202025-10-22%20235222.png)
