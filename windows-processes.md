@@ -83,3 +83,5 @@ The user is not the SYSTEM user.<br><br><br>
 The Windows Initialization Process, wininit.exe, is responsible for launching services.exe (Service Control Manager), lsass.exe (Local Security Authority), and lsaiso.exe within Session 0. It is another critical Windows process that runs in the background, along with its child processes. 
 
 ![processes](https://github.com/Andreas512514/core-windows-processes/blob/main/Screenshot%202025-10-23%20001041.png)
+
+![wininit.exe screenshot](https://github.com/Andreas512514/core-windows-processes/blob/main/Screenshot%202025-10-23%20001851.png)
