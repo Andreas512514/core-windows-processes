@@ -227,3 +227,8 @@ Subtle misspellings to hide rogue processes in plain sight<br>
 Outbound TCP/IP connections<br>
 
 ![](https://github.com/Andreas512514/core-windows-processes/blob/main/Screenshot%202025-10-23%20013608.png)
+
+The above image is the explorer.exe properties view from Process Explorer.<br><br><br>
+
+
+If you want more detailed information you can go [here](https://tryhackme.com/room/btwindowsinternals)
