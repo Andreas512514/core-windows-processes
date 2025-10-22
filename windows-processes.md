@@ -110,3 +110,19 @@ The next process is the **Service Control Manager** (SCM) or **services.exe**. I
 This process is the parent to several other key processes: svchost.exe, spoolsv.exe, msmpeng.exe, and dllhost.exe, to name a few.
 
 ![services.exe screenshot](https://github.com/Andreas512514/core-windows-processes/blob/main/Screenshot%202025-10-23%20003633.png)
+
+What is normal?
+
+**Image Path:**  %SystemRoot%\System32\services.exe<br>
+**Parent Process:**  wininit.exe<br>
+**Number of Instances:**  One<br>
+**User Account:**  Local System<br>
+**Start Time:**  Within seconds of boot time<br>
+
+What is unusual?
+
+A parent process other than wininit.exe<br>
+Image file path other than C:\Windows\System32<br>
+Subtle misspellings to hide rogue processes in plain sight<br>
+Multiple running instances<br>
+Not running as SYSTEM<br><br><br>
