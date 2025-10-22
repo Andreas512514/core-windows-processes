@@ -85,3 +85,19 @@ The Windows Initialization Process, wininit.exe, is responsible for launching se
 ![processes](https://github.com/Andreas512514/core-windows-processes/blob/main/Screenshot%202025-10-23%20001041.png)
 
 ![wininit.exe screenshot](https://github.com/Andreas512514/core-windows-processes/blob/main/Screenshot%202025-10-23%20001851.png)
+
+What is normal?
+
+**Image Path:**  %SystemRoot%\System32\wininit.exe<br>
+**Parent Process:**  Created by an instance of smss.exe<br>
+**Number of Instances:**  One<br>
+**User Account:**  Local System<br>
+**Start Time:**  Within seconds of boot time<br>
+
+What is unusual?
+
+An actual parent process. (smss.exe calls this process and self-terminates)<br>
+Image file path other than C:\Windows\System32<br>
+Subtle misspellings to hide rogue processes in plain sight<br>
+Multiple running instances<br>
+Not running as SYSTEM<br><br><br>
