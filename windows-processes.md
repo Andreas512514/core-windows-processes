@@ -202,3 +202,28 @@ Not running as SYSTEM<br>
 Shell value in the registry other than explorer.exe<br><br><br>
 
 
+## explorer.exe
+
+The last process we'll look at is Windows Explorer, explorer.exe. This process gives the user access to their folders and files. It also provides functionality for other features, such as the Start Menu and Taskbar.
+
+There will be many child processes for explorer.exe.
+
+![explorer.exe process screenshot](https://github.com/Andreas512514/core-windows-processes/blob/main/Screenshot%202025-10-23%20012818.png)
+
+What is normal?
+
+Image Path:  %SystemRoot%\explorer.exe<br>
+Parent Process:  Created by userinit.exe and exits<br>
+Number of Instances:  One or more per interactively logged-in user<br>
+User Account:  Logged-in user(s)<br>
+Start Time:  First instance when the first interactive user logon session begins<br>
+
+What is unusual?
+
+An actual parent process. (userinit.exe calls this process and exits)<br>
+Image file path other than C:\Windows<br>
+Running as an unknown user<br>
+Subtle misspellings to hide rogue processes in plain sight<br>
+Outbound TCP/IP connections<br>
+
+![](https://github.com/Andreas512514/core-windows-processes/blob/main/Screenshot%202025-10-23%20013608.png)
