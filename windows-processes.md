@@ -59,4 +59,21 @@ The running User is not the SYSTEM user<br><br><br>
 This process is also responsible for making the Windows API available to other processes, mapping drive letters, and handling the Windows shutdown process.
 
 csrss.exe and winlogon.exe are called from smss.exe at startup for Session 1. 
+
 ![csrss.exe proparties screenshoot](https://github.com/Andreas512514/core-windows-processes/blob/main/Screenshot%202025-10-22%20235222.png)
+
+What is normal
+
+**Image Path:**  %SystemRoot%\System32\csrss.exe<br>
+**Parent Process:**  Created by an instance of smss.exe<br>
+**Number of Instances:**  Two or more<br>
+**User Account:**  Local System<br>
+
+What is unusual?
+
+An actual parent process. (smss.exe calls this process and self-terminates)<br>
+Image file path other than C:\Windows\System32<br>
+Subtle misspellings to hide rogue processes masquerading as csrss.exe in plain sight<br>
+The user is not the SYSTEM user.<br><br><br>
+
+
