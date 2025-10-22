@@ -126,3 +126,40 @@ Image file path other than C:\Windows\System32<br>
 Subtle misspellings to hide rogue processes in plain sight<br>
 Multiple running instances<br>
 Not running as SYSTEM<br><br><br>
+
+
+
+## wininit.exe > services.exe > svchost.exe
+
+The **Service Host** (Host Process for Windows Services), or **svchost.exe**, is responsible for hosting and managing Windows services. 
+
+![svchost.exe screenshot](https://github.com/Andreas512514/core-windows-processes/blob/main/Screenshot%202025-10-23%20004907.png)
+
+What in normal?
+
+Image Path: %SystemRoot%\System32\svchost.exe<br>
+Parent Process: services.exe<br>
+Number of Instances: Many<br>
+Start Time: Typically within seconds of boot time. Other instances of svchost.exe can be started after boot.<br>
+
+What is unusual?
+
+A parent process other than services.exe<br>
+Image file path other than C:\Windows\System32<br>
+Subtle misspellings to hide rogue processes in plain sight<br>
+The absence of the -k parameter<br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
