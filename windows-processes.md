@@ -175,4 +175,30 @@ Not running as SYSTEM<br><br><br>
 
 
 
+## winlogon.exe
+
+The **Windows Logon**, **winlogon.exe**, is responsible for handling the **Secure Attention Sequence** (SAS). It is the ALT+CTRL+DELETE key combination users press to enter their username & password.
+
+This process is also responsible for loading the user profile. It loads the user's NTUSER.DAT into HKCU, and userinit.exe loads the user's shell.
+
+It is also responsible for locking the screen and running the user's screensaver, among other functions.
+
+![winlogon.exe process screenshot](https://github.com/Andreas512514/core-windows-processes/blob/main/Screenshot%202025-10-23%20012012.png)
+
+What is normal?
+
+**Image Path:**  %SystemRoot%\System32\winlogon.exe<br>
+**Parent Process:**  Created by an instance of smss.exe that exits, so analysis tools usually do not provide the parent process name.<br>
+**Number of Instances:**  One or more<br>
+**User Account:**  Local System<br>
+**Start Time:**  Within seconds of boot time for the first instance (for Session 1). Additional instances occur as new sessions are created, typically through Remote Desktop or Fast User Switching logons.<br>
+
+What is unusual?
+
+An actual parent process. (smss.exe calls this process and self-terminates)<br>
+Image file path other than C:\Windows\System32<br>
+Subtle misspellings to hide rogue processes in plain sight<br>
+Not running as SYSTEM<br>
+Shell value in the registry other than explorer.exe<br><br><br>
+
 
