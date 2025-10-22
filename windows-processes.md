@@ -151,14 +151,27 @@ The absence of the -k parameter<br><br><br>
 
 
 
+## lsass.exe
 
+Per Wikipedia, "Local Security Authority Subsystem Service (**LSASS**) is a process in Microsoft Windows operating systems that is responsible for enforcing the security policy on the system. It verifies users logging on to a Windows computer or server, handles password changes, and creates access tokens. It also writes to the Windows Security Log."
 
+![lsass.exe screenshot](https://github.com/Andreas512514/core-windows-processes/blob/main/Screenshot%202025-10-23%20010930.png)
 
+What is normal?
 
+**Image Path:**  %SystemRoot%\System32\lsass.exe<br>
+**Parent Process:**  wininit.exe<br>
+**Number of Instances:**  One<br>
+**User Account:**  Local System<br>
+**Start Time:**  Within seconds of boot time<br>
 
+What is unusual?
 
-
-
+A parent process other than wininit.exe<br>
+Image file path other than C:\Windows\System32<br>
+Subtle misspellings to hide rogue processes in plain sight<br>
+Multiple running instances<br>
+Not running as SYSTEM<br><br><br>
 
 
 
